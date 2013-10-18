@@ -3,18 +3,18 @@ body{
 	background: #292D35;
 	height: 100%;
 	width: 100%;
+	min-width: 960px;
 }
 
 #header{
 	background: #1A1E25;
 	width: 100%;
-	min-width: 960px;
 	height: 110px;
 	text-align: center;
 }
 
-#headerContent{
-	width: 50px;
+#headerContent1{
+	width: 80px;
 	font-size: large;
 	color: white;
 	padding: 8px 30px 8px 30px;
@@ -30,13 +30,13 @@ a:hover{
 #body0{
 	margin: 0px auto;
 	width: 960px;
-	height: 500px;
+	height: 650px;
 	text-align: center;
 }
 
 #body1{
 	float: left;
-	width: 50%;
+	width: 55%;
 	height: 100%;
 	border-radius: 20px;
 	background: white;
@@ -44,26 +44,28 @@ a:hover{
 	
 #body2{
 	float: left;
-	margin-left: 1%;
-	width: 36%;
+	width: 35%;
 	height: 50%;
 	border-radius: 20px;
 	background: white;
 	
 }
 
-#likeContent{
+#likeDislikeContent{
 	float: left;
 	margin-left: 1%;
-	width: 6%;
-	background: yellow;
+	margin-right: 1%;
+	width: 8%;
+	height: 138px;
+
 }
 
-#likeContent{
-	float: left;
-	margin-left: 1%;
-	width: 6%;
-	background: yellow;
+#likeDislikeContent img{
+	width: 34px;
+	height: 33px;
+	padding: 5px 5px;
+	border: 2px;
+	display: inline-block;
 }
 
 #footer{
@@ -74,4 +76,9 @@ a:hover{
 	height: 90px;
 	font-size: medium;
 	color: white;		
+}
+
+#adFormat{
+	margin: 5% 2%;
+	width: 92%;
 }
