@@ -1,22 +1,4 @@
-<html>
-<head> 
-	<title>KelioTech WebMaster Studio</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-	<div id="header">
-		<br>
-		<br>
-		<a id="headerContent1">BitAd</a>
-		<a id="headerContent1">Campaigns</a>
-		<a id="headerContent1">About</a>
-		<a id="headerContent1">Sentences</a>
-		<a id="headerContent1">Blogs</a>
-		<a id="headerContent1">Sign in</a>
-		<a id="headerContent1">Sentences</a>
-	</div>
-	<hr style="margin: 0px;">
-	<br>
+<?php include('header.php'); ?>
 	<div id="body0">
 		<div id= "body1">
 		<h2>When I apply a new CSS for the first time</h2>
@@ -226,13 +208,4 @@
 		<!-- this is the body content -->
 	</div>
 	<br>
-	<div id="footer">
-		<br>
-		Last modified Monday, Octuber 16, 2013.
-		<br>&copy;
-		KelioTech WebMaster Studio, New York.
-		<br>
-		Please contact Kenny with your questions, comments, and suggestions about this website.
-	</div>
-</body>
-</html>
+<?php include('footer.php'); ?>
