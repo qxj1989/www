@@ -49,8 +49,8 @@ a:hover{
 
 #likeDislikeContent{
 	float: left;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 0%;
+	margin-right: 2%;
 	width: 8%;
 	height: 138px;
 }
@@ -77,16 +77,16 @@ a:hover{
 }
 
 #adFormat{
-	margin: 4% 2%;
+	margin: 5% 2%;
 	width: 92%;
 }
 
 #shareWraper{
-	margin: 0% 4% 3% 4%;
+	margin: -1% 4% 3% 4%;
 	text-align: left;
 }
 
 #shareIcon{
-	width: 35px;
-	height: 35px;
+	width: 41px;
+	height: 41px;
 }
