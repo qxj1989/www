@@ -1,8 +1,6 @@
 body{
 	margin: 0px;
 	background: #292D35;
-	height: 100%;
-	width: 100%;
 	min-width: 960px;
 }
 
@@ -30,25 +28,23 @@ a:hover{
 #body0{
 	margin: 0px auto;
 	width: 960px;
-	height: 650px;
 	text-align: center;
 }
 
 #body1{
 	float: left;
 	width: 55%;
-	height: 100%;
 	border-radius: 20px;
 	background: white;
+	margin-bottom: 30px;
 }
 	
 #body2{
-	float: left;
+	float: right;
 	width: 35%;
 	height: 50%;
 	border-radius: 20px;
 	background: white;
-	
 }
 
 #likeDislikeContent{
@@ -57,7 +53,6 @@ a:hover{
 	margin-right: 1%;
 	width: 8%;
 	height: 138px;
-
 }
 
 #likeDislikeContent img{
@@ -69,6 +64,9 @@ a:hover{
 }
 
 #footer{
+	float: right;
+/*	position: fixed; 
+	bottom: 0;*/
 	text-align: center;
 	vertical-align: middle;
 	background: #1A1E25;
@@ -79,6 +77,16 @@ a:hover{
 }
 
 #adFormat{
-	margin: 5% 2%;
+	margin: 4% 2%;
 	width: 92%;
+}
+
+#shareWraper{
+	margin: 0% 4% 3% 4%;
+	text-align: left;
+}
+
+#shareIcon{
+	width: 35px;
+	height: 35px;
 }
